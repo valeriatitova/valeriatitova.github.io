@@ -19,3 +19,4 @@ var animItem = lottie.loadAnimation({
   loop: true,
   path: 'https://valeriatitova.github.io/tesst.json' // the path to the animation json);
 });
+alert('!!');
