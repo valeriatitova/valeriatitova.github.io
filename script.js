@@ -11,9 +11,9 @@ var animItem = lottie.loadAnimation(
 }
 );
 alert('!!');
-
-var btn= document.getElementsByTagName('button');
 */
+var btn= document.getElementsByTagName('button');
+
 
 btn[0].addEventListener('click', function(event) {
   var target = event.target;
