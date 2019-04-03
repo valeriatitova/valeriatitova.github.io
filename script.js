@@ -1,5 +1,5 @@
 // lottie
-var svgContainer = document.getElementById('test');
+/*var svgContainer = document.getElementById('test');
 var animItem = document.getElementById('test');
 
 var animItem = lottie.loadAnimation(
@@ -13,10 +13,10 @@ var animItem = lottie.loadAnimation(
 alert('!!');
 
 var btn= document.getElementsByTagName('button');
-
+*/
 
 btn[0].addEventListener('click', function(event) {
   var target = event.target;
   target.style.display = 'none';
-  //alert('Произошло событие  ' + event.type + ' на элементе  ' + event.target);
+  alert('Произошло событие  ' + event.type + ' на элементе  ' + event.target);
 });
