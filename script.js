@@ -1,9 +1,6 @@
-var animation = bodymovin.loadAnimation({
-	container: document.getElementById('anim'),
-	renderer: 'svg',
-	loop: true,
-	autoplay: true,
-	path: 'header1.json'
 
 
-})
+var btn1= document.getElementByTagName('button');
+btn1.addEventListener('click',function() {
+  alert('!');
+});
