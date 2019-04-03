@@ -1,8 +1,8 @@
 
-alert('0');
+
 var btn= document.getElementsByTagName('button');
 
-alert('00');
-btn[0].addEventListener('click', function() {
-  alert('!');
+
+btn[0].addEventListener('click', function(event) {
+  alert('Произошло событие' + event.type + 'на элементе' + event.target);
 });
