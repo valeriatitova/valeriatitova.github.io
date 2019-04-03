@@ -12,7 +12,7 @@ var animItem = lottie.loadAnimation(
 );
 alert('!!');
 */
-var btn= document.getElementsByTagName('button');
+let btn= document.getElementsByTagName('button');
 
 
 btn[0].addEventListener('click', function(event) {
